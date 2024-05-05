@@ -61,13 +61,15 @@
             left: 50%;
             width: 50%;
             transform: translateX(-50%);
-            transition: 1s;
-            -webkit-transition: 1s;
         }
-        .start-button :hover {
-            background: #f8204e;
-        }
+
         </style>
-        <body>
-            <img id="Start" class="start-button" src="pic/按鈕.png" alt="開始你的心理測驗吧"></img>
-        </body>
+        
+            <img id="Start" class="start-button" src="pic/按鈕.png" alt="開始你的心理測驗吧">
+            <script>
+                var startbutton = document.getElementById("Start");
+                startbutton.addEventListener("click",function(){
+                   window.location.href = "subpage1.html";  
+                })
+            </script>
+    </div>
