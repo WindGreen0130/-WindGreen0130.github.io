@@ -7,6 +7,9 @@
         <meta name="keywords" content="Wind,柳如風,Hennes,板橋高中學生會"></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
         <title>板中男裙週心理測驗</title>
+        <script src="score.js">
+            
+        </script>
         <style>
             body {
                 background-image: url("pic/封面底圖.png");
@@ -69,7 +72,9 @@
             <script>
                 var startbutton = document.getElementById("Start");
                 startbutton.addEventListener("click",function(){
-                   window.location.href = "conversation.html";  
+                    liberalism += 1;
+                    console.log(liberalism);
+                    window.location.href = "conversation.html";
                 })
             </script>
     </div>
